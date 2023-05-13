@@ -12,9 +12,11 @@ Creating a sales management website using PHP, MariaDB and Laravel.
 | Editor | Visual Studio Code 1.74.2 |
 | DBMS | MariaDB 11.1.0 <br> HeidiSQL 12.3.0.6589|
 | Server | Apache 2.4.54 |
+| Youtube | <a href="https://youtu.be/0cmkkSvnMaA"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat-square&logo=YouTube&logoColor=white"/></a>|
+| Github | <a href="https://github.com/ces0028/Sales_Management-PHP-Laravel-Project"><img src="https://img.shields.io/badge/Github-F05032?style=flat-square&logo=github&logoColor=white"/></a> |
 
 ## Periods of Development
-2023-05-08(Mon) ~ 2023-05-09(Tue)
+2023-05-08(Mon) ~ 2023-05-13(Sat)
 
 ## Feature Summary
-<b>Feature summary video will be uploaded soon</b>
+[![Video Label](https://github.com/ces0028/Sales_Management-PHP-Laravel-Project/assets/115549424/7418f11c-4532-4214-bb2c-4e920ff15ac5)](https://youtu.be/0cmkkSvnMaA)
