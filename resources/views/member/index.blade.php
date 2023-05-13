@@ -27,9 +27,9 @@
   <table class="table table-sm table-bordered table-hover mymargin5">
       <tr class="mycolor2">
           <td width="10%">번호</td>
-          <td width="20%">아이디</td>
-          <td width="20%">암호</td>
           <td width="20%">이름</td>
+          <td width="20%">아이디</td>
+          <td width="20%">비밀번호</td>
           <td width="20%">전화</td>
           <td width="10%">등급</td>
       </tr>

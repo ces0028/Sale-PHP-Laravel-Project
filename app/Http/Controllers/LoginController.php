@@ -20,7 +20,7 @@ class LoginController extends Controller {
         } else {
             echo "<script>alert('로그인에 실패했습니다.');</script>";
         }
-        return view('main');
+        return view('main.index');
     }
 
     public function logout() {
@@ -28,6 +28,6 @@ class LoginController extends Controller {
         session()->forget('name');
         session()->forget('rank');
 
-        return view('main');
+        return view('main.index');
     }
 }

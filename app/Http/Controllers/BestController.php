@@ -28,7 +28,7 @@ class BestController extends Controller {
                 ->where('notes.in_out', '=', 1)
                 ->orderby('count_out', 'desc')
                 ->groupby('products.name')
-                ->paginate(5)
+                ->paginate(10)
                 ->appends(['start_date'=>$start_date, 'end_date'=>$end_date]);
         return $result;
     }

@@ -22,7 +22,9 @@ class ProductController extends Controller
         $result = Product::leftjoin('categories', 'products.category_id', '=', 'categories.id')
         ->select('products.*', 'categories.name as category_name')
         ->where('products.name', 'like', '%'.$text1.'%')
-        ->orderby('name', 'asc')->paginate(5)->appends(['text1'=>$text1]);
+        ->orderby('name', 'asc')
+        ->paginate(10)
+        ->appends(['text1'=>$text1]);
 
         return $result;
     }

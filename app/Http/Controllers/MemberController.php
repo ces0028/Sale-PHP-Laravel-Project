@@ -22,7 +22,9 @@ class MemberController extends Controller {
 
     public function getlist($text1) {
         $result = Member::where('name', 'like', '%'.$text1.'%')
-                  ->orderby('name', 'asc')->paginate(5)->appends(['text1'=>$text1]);
+                  ->orderby('name', 'asc')
+                  ->paginate(10)
+                  ->appends(['text1'=>$text1]);
         return $result;
     }
 

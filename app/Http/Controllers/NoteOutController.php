@@ -27,7 +27,7 @@ class NoteOutController extends Controller
         ->where('notes.in_out', '=', 1)
         ->where('notes.write_date', '=', $text1)
         ->orderby('notes.id', 'desc')
-        ->paginate(5)
+        ->paginate(10)
         ->appends(['text1'=>$text1]);
 
         return $result;

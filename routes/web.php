@@ -15,7 +15,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PictureController;
 
 Route::get('/', function () {
-    return view('main');
+    return view('main.index');
 });
 
 Route::get('member', [MemberController::class, 'index']);

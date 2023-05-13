@@ -6,8 +6,8 @@
     <title>SALES MANAGEMENT</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('my/css/my.css')}}"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9dc02b3074.js" crossorigin="anonymous"></script>
-    
     <script src="{{asset('my/js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{asset('my/js/moment-with-locales.min.js')}}"></script>
     <script src="{{asset('my/js/bootstrap.min.js')}}"></script>
@@ -19,7 +19,7 @@
     <div class="container-fluid px-0">
       <nav class="navbar navbar-expand-lg col-12 navbar-dark bg-dark px-4" style="height:80px">
         <div class="container-fluid">
-          <a class="navbar-brand" href="{{url('/')}}">SALES MANAGEMENT</a>
+          <a class="navbar-brand" href="{{url('/')}}" style="font-family:'Abril Fatface', cursive;">SALES MANAGEMENT</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

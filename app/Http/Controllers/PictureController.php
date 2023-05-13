@@ -18,7 +18,7 @@ class PictureController extends Controller {
     public function getlist($search_image) {
         $result = Product::where('name', 'like', '%'.$search_image.'%')
         ->orderby('name', 'asc')
-        ->paginate(5)
+        ->paginate(8)
         ->appends(['search_image'=>$search_image]);
 
         return $result;

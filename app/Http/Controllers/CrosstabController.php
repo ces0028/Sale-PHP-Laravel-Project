@@ -36,7 +36,7 @@ class CrosstabController extends Controller {
                 ->where('notes.in_out', '=', 1)
                 ->orderby('products.name', 'desc')
                 ->groupby('products.name')
-                ->paginate(5)
+                ->paginate(10)
                 ->appends(['search_month'=>$search_month]);
         return $result;
     }

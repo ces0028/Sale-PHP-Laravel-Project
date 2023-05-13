@@ -32,7 +32,7 @@ class PeriodController extends Controller {
                     ->select('notes.*', 'products.name as product_name')
                     ->wherebetween('notes.write_date', array($start_date, $end_date))
                     ->orderby('notes.id', 'desc')
-                    ->paginate(5)
+                    ->paginate(10)
                     ->appends(['start_date'=>$start_date, 'end_date'=>$end_date, 'search_product'=>$search_product]);
         } else {
             $result = Note::leftjoin('products', 'notes.product_id', '=', 'products.id')
@@ -40,7 +40,7 @@ class PeriodController extends Controller {
                     ->wherebetween('notes.write_date', array($start_date, $end_date))
                     ->where('notes.product_id', '=', $search_product)
                     ->orderby('notes.id', 'desc')
-                    ->paginate(5)
+                    ->paginate(10)
                     ->appends(['start_date'=>$start_date, 'end_date'=>$end_date, 'search_product'=>$search_product]);
         }
         return $result;
