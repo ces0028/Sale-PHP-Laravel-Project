@@ -19,4 +19,4 @@ Creating a sales management website using PHP, MariaDB and Laravel.
 2023-05-08(Mon) ~ 2023-05-13(Sat)
 
 ## Feature Summary
-[![Video Label](https://github.com/ces0028/Sales_Management-PHP-Laravel-Project/assets/115549424/7418f11c-4532-4214-bb2c-4e920ff15ac5)](https://youtu.be/0cmkkSvnMaA)
+[![Video Label](http://img.youtube.com/vi/0cmkkSvnMaA/0.jpg)](https://youtu.be/0cmkkSvnMaA)
